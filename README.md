@@ -5,7 +5,7 @@ In this analysis we give a variety of analyses based on data collected from Mech
 
 ## Linear Regression to Predict MPG
 
-[image of linear regression summary]
+![](https://raw.githubusercontent.com/SecretDoves3000/MechaCar_Statistucal_Analysis/main/images/MechaCarRegressionSS.png)
 
 From our weights we see that while the slope of our multivariable model is non-zero, only 3/6 variables contributing significantly is a sign that our current model may be overfit with unneccessary information. We should likely focus in on a model focusing on vehicle length and ground clearance to give more accurate pedictions.
 
@@ -13,21 +13,25 @@ From our weights we see that while the slope of our multivariable model is non-z
 
 According to design specifications, the MechaCar requires a variance in the PSI of suspension coils under 100 PSI. Looking at the total dataset we seem to be in line with these specifications.
 
-[image of overall]
+![](https://raw.githubusercontent.com/SecretDoves3000/MechaCar_Statistucal_Analysis/main/images/OverallSummarySS.png)
 
 However, when we break these staistics down by lots we see that the variance of PSI in lot 3 is far above the required specifications, and thus needs to be discarded. Going forward, we must make sure to check specifications lot by lot as there appears to be the potential for large discrepancies between lots.
 
-[image of lot summary]
+![](https://raw.githubusercontent.com/SecretDoves3000/MechaCar_Statistucal_Analysis/main/images/LotSummarySS.png)
 
 ## T-Tests on Suspension Coils
 
 A one sample T-test shows us that our sample of Suspension Coils has a mean of 1498.78 and that this mean is not statistically different than the overall population p-value ~ 0.
 
-[image of t-test]
+![](https://github.com/SecretDoves3000/MechaCar_Statistucal_Analysis/blob/main/images/one%20sample%20t-test.png)
 
 Breaking down by lots, we see that each lot also is also not statistically far from its average with p-values close to 0 across the board.
 
-[images of three t-tests]
+![](https://github.com/SecretDoves3000/MechaCar_Statistucal_Analysis/blob/main/images/lot1ttestSS.png)
+
+![](https://github.com/SecretDoves3000/MechaCar_Statistucal_Analysis/blob/main/images/lot2ttestSS.png)
+
+![](https://github.com/SecretDoves3000/MechaCar_Statistucal_Analysis/blob/main/images/lot3ttestSS.png)
 
 ## Study Design: MechaCar vs Competition
 
